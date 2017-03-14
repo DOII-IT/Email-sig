@@ -4,14 +4,29 @@
         <title>Email signature page</title>
         <style>
 
+              @webfont  {
+                  src: url(.\fonts\GOTHIC.ttf);
+              }
+
               body    {
                 margin-left: 20px;
+                font-family: "century gothic";
+                color: #6EC536;
               }
 
               a       {
                 text-decoration: none;
               }
 
+              #BR, #CE     {
+                font-size: 1.2em;
+              }
+
+              #webADD      {
+                /* margin-left: 35px; */
+                text-decoration: underline;
+                color: #0066CC;
+              }
         </style>
         <!-- Email banner size - webmail - 624 x 180 -->
     </head>
@@ -20,30 +35,42 @@
         <br><br><br><br>
         <p>
                     <!-- Closing lines-->
-          Best Regards<br>
-          Ifeyinwa Ighodalo<br>
-          Chief Executive<br><br>
-
-                    <!-- Address -->
-          292C Ajose Adeogun<br>
-          Victoria Island, Lagos<br><br>
-
-                    <!-- Telephone icon and phone number -->
-          <img alt="Call us" title="Call us" src="http://www.vcnltd.com/sig_do/phone.png">
-          <em>
-            <a href="tel:+234 803 4002 170"
-          x-apple-data-detectors-result="1" x-apple-data-detectors-type="telephone"
-          x-apple-data-detectors="true">+234 803 4002 170</a>
-          <em><br><br>
+          <p id="BR">Best Regards</p>
+          <p id="CE">
+            Ifeyinwa Ighodalo<br>
+            Chief Executive<br><br>
+          </p>
 
                     <!-- animated picture comes next -->
           <a href="http://www.doii-designs.com/" target="_blank" title="Visit our website">
-            <img alt="DO.II Designs slideshow and gallery"   src="https://raw.githubusercontent.com/DOII-IT/Email-sig/master/Animate.gif">
-          </a><br><br>
+            <img alt="DO.II Designs slideshow and gallery"   src="https://raw.githubusercontent.com/DOII-IT/Email-sig/master/Animate.gif"><br>
+            <a id="webADD">www.doii-designs.com</a><br>
 
-          <a href="mailto:ighodalo.i@doii-designs.com?Subject=About%20us"  target="_top">
-            <img alt="Contact us" src="http://www.vcnltd.com/sig_do/email.jpg">
+                    <!-- CE's Email Address-->
+            <p>
+              <a href="mailto:ighodalo.i@doii-designs.com?Subject=About%20us"  target="_top">
+                <img alt="Contact us" src="http://www.vcnltd.com/sig_do/email.jpg">
+              </a>
+            </p>
+
+                    <!-- Office address -->
+            292C Ajose Adeogun<br>
+            Victoria Island, Lagos<br><br>
+
+                      <!-- Telephone icon and phone number -->
+            <img alt="Call us" title="Call us" src="http://www.vcnltd.com/sig_do/phone.png">
+            <em>
+              <a href="tel:+234 803 4002 170"
+            x-apple-data-detectors-result="1" x-apple-data-detectors-type="telephone"
+            x-apple-data-detectors="true">+234 803 4002 170</a>
+            <em><br><br>
+
+
+            <!--
+            <img alt="DO.II Designs slideshow and gallery" src="Animate.gif" title="new animation"> -->
           </a>
+
+
         </p>
 
 
